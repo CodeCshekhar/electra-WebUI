@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment Form</title>
+</head>
+<body>
+    <form action="/submit_payment" method="post">
+        <label for="amount">Amount:</label>
+        <input type="number" step="0.01" id="amount" name="amount" required><br><br>
+        
+        <label for="payment_date">Payment Date:</label>
+        <input type="date" id="payment_date" name="payment_date" required><br><br>
+        
+        <label for="customer_id">Customer ID:</label>
+        <input type="number" id="customer_id" name="customer_id"><br><br>
+        
+        <label for="order_id">Order ID:</label>
+        <input type="number" id="order_id" name="order_id"><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
