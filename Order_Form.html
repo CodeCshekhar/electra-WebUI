@@ -2,19 +2,29 @@
 <html>
 <head>
     <title>Orders Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <form action="/submit_order" method="post">
-        <label for="product_id">Product ID:</label>
-        <input type="number" id="product_id" name="product_id"><br><br>
-        
-        <label for="customer_id">Customer ID:</label>
-        <input type="number" id="customer_id" name="customer_id"><br><br>
-        
-        <label for="order_date">Order Date:</label>
-        <input type="date" id="order_date" name="order_date"><br><br>
-        
-        <input type="submit" value="Submit">
-    </form>
+    <div class="container">
+        <div class="form-container">
+            <h2>Orders Form</h2>
+            <form action="/submit_order" method="post">
+                <div class="form-group">
+                    <label for="product_id">Product ID:</label>
+                    <input type="number" class="form-control" id="product_id" name="product_id">
+                </div>
+                <div class="form-group">
+                    <label for="customer_id">Customer ID:</label>
+                    <input type="number" class="form-control" id="customer_id" name="customer_id">
+                </div>
+                <div class="form-group">
+                    <label for="order_date">Order Date:</label>
+                    <input type="date" class="form-control" id="order_date" name="order_date">
+                </div>
+                <input type="submit" class="btn btn-primary" value="Submit">
+            </form>
+        </div>
+    </div>
 </body>
 </html>
