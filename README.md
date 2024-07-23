@@ -5,7 +5,7 @@
   
 </head>
 <body>
-    <h1>Electronic Brand Managment - HTML Forms</h1>
+    <h1>Electronic Brand Managment - WebUI</h1>
   <p>
     🌟 Imagine a world where technology seamlessly blends with creativity, crafting experiences that are not only functional but also aesthetically pleasing. This is the essence of our innovative solutions, where every line of code is a brushstroke on the canvas of digital artistry. 🎨 Join us on this journey to explore the limitless possibilities of the tech universe, where imagination meets precision, and dreams transform into reality. 🚀✨
 
