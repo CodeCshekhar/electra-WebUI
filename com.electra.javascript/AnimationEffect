@@ -1,0 +1,23 @@
+document.querySelector('form').addEventListener('submit', function(e) {
+    const invalidInputs = this.querySelectorAll(':invalid');
+    if (invalidInputs.length > 0) {
+        e.preventDefault();
+        invalidInputs.forEach(input => {
+            input.style.animation = 'none';
+            setTimeout(() => {
+                input.style.animation = '';
+            }, 10);
+        });
+    }
+});
+
+document.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
+    checkbox.addEventListener('change', function() {
+        if (this.checked) {
+            this.style.animation = 'none';
+            setTimeout(() => {
+                this.style.animation = 'rotate 0.5s linear';
+            }, 10);
+        }
+    });
+});
