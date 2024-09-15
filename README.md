@@ -20,10 +20,8 @@
 
   Dive into the world of <strong>TechArt</strong> and witness how we transform complex algorithms into beautiful, user-friendly applications. Let's innovate together and push the boundaries of what's possible! 🌐💡
 </p>
-
-
-  
-
-    
 </body>
 </html>
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
